@@ -10,9 +10,10 @@
 }
 
 .small-card__photo > img {
-    width: 90%;
+    width: 230px;
+    height: auto;
     min-width: 200px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .small-card__title {

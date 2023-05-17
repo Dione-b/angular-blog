@@ -5,13 +5,20 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './big-card.component.html',
   styleUrls: ['./big-card.component.css']
 })
+
 export class BigCardComponent implements OnInit {
 
-  @Input() photoLink: string = ""
-  
-  @Input() title: string = ""
+  @Input()
+  photoLink: string = ''
 
-  @Input() description: string = ""
+  @Input()
+  title:string = ''
+
+  @Input()
+  description:string = ''
+
+  @Input()
+  Id: string = '0'
 
 
   constructor() { }
