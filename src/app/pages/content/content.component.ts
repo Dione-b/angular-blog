@@ -9,9 +9,9 @@ import { dataFake } from 'src/app/data/dataFake';
 })
 export class ContentComponent implements OnInit {
 
-  photoCover: string = 'https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2020/11/16075718/Tony-stark-homem-de-ferro.jpg'
-  contentTitle: string = 'Minha Notícia'
-  contentDescription: string = 'Ola mundo'
+  photoCover: string = ''
+  contentTitle: string = ''
+  contentDescription: string = ''
   private id: string | null = '0'
 
   constructor(
